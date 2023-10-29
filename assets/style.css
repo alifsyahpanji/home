@@ -1,0 +1,78 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #8E2DE2, #4A00E0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profil-image {
+    width: 160px;
+    border-radius: 50% 50%;
+}
+
+.description {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.butoon-link {
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    width: 170px;
+    border: none;
+    border-radius: 15px;
+}
+
+.container-sosmed {
+    margin-top: 40px;
+}
+
+.sosmed-size {
+    width: 35px;
+}
+
+@media only screen and (orientation: landscape) {
+    .title {
+        font-size: 60px;
+    }
+
+    .profil-image {
+        width: 250px;
+    }
+
+    .description {
+        font-size: 25px;
+        width: 1300px;
+    }
+
+    .butoon-link {
+        width: 240px;
+        font-size: 21px;
+    }
+
+    .sosmed-size {
+        width: 40px;
+
+    }
+
+
+}
